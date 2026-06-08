@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    background-color: #f5f7fa;
+}
+.container{
+     background-color: #f5f7fa;
+        width: 80%;
+        margin: auto;
+}
+
+.nav{
+    background-color: #f5f7fa;
+    color: white;
+    padding: 20px 0px;
+}
+.logo{
+    display: inline-block;
+}
+.nav ul {
+    display: inline-block;
+    width: 44%;
+    list-style: none;
+    margin-left: 15%;
+}
+.ul li{
+    float: left;
+   margin-left: 5%;
+    text-align: left;
+
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.nav li a:hover{
+    color: green;
+}
+.nav-btn{
+   float: right;
+}
+.log-btn{
+text-decoration: none;
+background-color: white;
+color: green;
+ border-radius: 6px;
+    padding: 7px 14px;
+    font-size: 17px;
+}
+.sign-btn{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    padding: 7px 14px;
+    font-size: 17px;
+}
+.hero{
+    background-color: #f5f7fa;
+    height: 67vh;
+}
+.text h1{
+    display: inline-block;
+    padding-top: 5%;
+    padding-left: 13%;
+    padding-bottom: 1%;
+}
+.text h1 span{
+    color: rgb(91, 183, 91);
+}
+.text p{
+ padding-left: 12%;
+ opacity: 0.6;
+ font-size: smaller;
+}
+.r-btn{
+    background-color:green ;
+    color: white;
+   padding: 7px 14px;
+   margin-left: 12%;
+   margin-top: 1%;
+   border: none;
+   border-radius: 2px;
+}
+.img{
+    float:right;
+padding-right: 10%;
+margin-top: -200px;
+}
+.dots{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.dots span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.dots .active{
+    background-color: green;
+}
+.logos{
+     background-color: white;
+}
+.logos h2{
+    text-align: center;
+    padding-top: 2%;
+}
+.logos p{
+    text-align: center;
+   padding-top: 1%;
+   opacity: 0.6;
+ font-size: smaller;
+}
+.logos img{
+   width: 100%;
+}
+.community{
+    padding-top: 4%;
+    padding-right: 3%;
+}
+.pixelgrade{
+    width: 80%;
+padding-top: 4%;
+}
+.pixel-img{
+    width: 50%;
+    float: left;
+}
+.pixel-img img{
+    width: 100%;
+}
+.pixel-text{
+    width: 50%;
+    float: right;
+    padding-top: 5%;
+
+}
+.pixel-text h2{
+    font-size: 2rem;
+    margin-bottom:3% ;
+}
+.pixel-text p{
+     opacity: 0.6;
+ font-size: smaller;
+}
+.l-btn{
+    background-color:green ;
+    color: white;
+   padding: 7px 14px;
+   margin-top: 5%;
+   border: none;
+   border-radius: 2px;
+}
+.business{
+    width:100%;
+    background:#F5F7FA;
+    padding:80px 100px;
+
+    overflow:hidden;
+}
+
+.business-left{
+    width:40%;
+    float:left;
+    padding-top: 3%;
+}
+
+.business-left h2{
+    font-size:30px;
+    color:#4D4D4D;
+}
+
+.business-left span{
+    color:#4CAF4F;
+}
+
+.business-left p{
+    margin-top:2%;
+    color:#717171;
+}
+
+.business-right{
+    width:50%;
+    float:right;
+}
+
+.stat{
+    width:45%;
+    display:inline-block;
+    margin:20px 10px;
+}
+
+.stat img{
+    width:40px;
+    vertical-align:middle;
+    margin-right:10px;
+}
+
+.stat div{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.stat h3{
+    font-size:28px;
+    color:#4D4D4D;
+}
+
+.stat p{
+    color:#717171;
+}
