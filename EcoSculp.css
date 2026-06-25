@@ -1,0 +1,78 @@
+.eco{
+    background-image: url(assets/eco.png);
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.nav ul li a:hover{
+        color: green;
+}
+.check-icon{
+    width: 5%;
+    height: 30px;
+    margin-right: 2%;
+    background: #39b98a;
+    color: white;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    transition: .3s;
+}
+
+.card:hover{
+    background-color: #3db58a;
+    color: white;
+}
+
+.card:hover i,
+.card:hover span{
+    color: white !important;
+}
+
+.profile{
+   width: 17%;
+    height: 80px;
+    left: -45px;
+    top: 47%;
+    transform: translateY(-50%);
+    border: none;
+    object-fit: cover;
+}
+
+.stars{
+    right:30px;
+    bottom:30px;
+    color:#ffc107;
+    font-size:18px;
+}
+.card:hover .stars i{
+    color: gold !important;
+}
+.accordion-button{
+    background-color: white;
+    color: black;
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed){
+    background-color: #39b98a;
+    color: white;
+}
+.accordion-body{
+    background-color: #39b98a;
+    color: white;
+}
+.accordion-item{
+    border: none !important;
+}
+.accordion-button:not(.collapsed)::after{
+    filter: brightness(0) invert(1);
+}
+.card{
+    transition: .3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
